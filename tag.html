@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All HTML Input Types Form</title>
+</head>
+<body>
+
+    <h2>HTML Form with All Input Types</h2>
+
+    <form action="/submit" method="post">
+        
+        <!-- Text -->
+        <label>Text:</label>
+        <input type="text" name="text"><br><br>
+
+        <!-- Password -->
+        <label>Password:</label>
+        <input type="password" name="password"><br><br>
+
+        <!-- Email -->
+        <label>Email:</label>
+        <input type="email" name="email"><br><br>
+
+        <!-- Number -->
+        <label>Number:</label>
+        <input type="number" name="number" min="0" max="100"><br><br>
+
+        <!-- Telephone -->
+        <label>Telephone:</label>
+        <input type="tel" name="tel"><br><br>
+
+        <!-- URL -->
+        <label>URL:</label>
+        <input type="url" name="url"><br><br>
+
+        <!-- Search -->
+        <label>Search:</label>
+        <input type="search" name="search"><br><br>
+
+        <!-- Date -->
+        <label>Date:</label>
+        <input type="date" name="date"><br><br>
+
+        <!-- Time -->
+        <label>Time:</label>
+        <input type="time" name="time"><br><br>
+
+        <!-- Datetime-local -->
+        <label>Date & Time Local:</label>
+        <input type="datetime-local" name="datetime"><br><br>
+
+        <!-- Month -->
+        <label>Month:</label>
+        <input type="month" name="month"><br><br>
+
+        <!-- Week -->
+        <label>Week:</label>
+        <input type="week" name="week"><br><br>
+
+        <!-- Range -->
+        <label>Range:</label>
+        <input type="range" name="range" min="0" max="100"><br><br>
+
+        <!-- Color -->
+        <label>Color:</label>
+        <input type="color" name="color"><br><br>
+
+        <!-- File -->
+        <label>File:</label>
+        <input type="file" name="file"><br><br>
+
+        <!-- Checkbox -->
+        <label>Checkbox:</label>
+        <input type="checkbox" name="checkbox1" value="Option1"> Option 1
+        <input type="checkbox" name="checkbox2" value="Option2"> Option 2
+        <br><br>
+
+        <!-- Radio -->
+        <label>Radio:</label>
+        <input type="radio" name="radioGroup" value="A"> A
+        <input type="radio" name="radioGroup" value="B"> B
+        <br><br>
+
+        <!-- Hidden -->
+        <input type="hidden" name="hiddenField" value="secretData">
+
+        <!-- Image button -->
+        <label>Image Button:</label>
+        <input type="image" src="https://via.placeholder.com/50" alt="Submit" width="50">
+        <br><br>
+
+        <!-- Textarea -->
+        <label>Textarea:</label><br>
+        <textarea name="textarea" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <!-- Select Dropdown -->
+        <label>Select:</label>
+        <select name="dropdown">
+            <option value="Option1">Option 1</option>
+            <option value="Option2">Option 2</option>
+            <option value="Option3">Option 3</option>
+        </select>
+        <br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Submit">
+        
+        <!-- Reset -->
+        <input type="reset" value="Reset">
+
+        <!-- Button -->
+        <input type="button" value="Click Me" onclick="alert('Button Clicked!')">
+
+    </form>
+
+</body>
+</html>
