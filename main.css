@@ -1,0 +1,34 @@
+p{
+    background-color: antiquewhite;
+}
+div{
+    background-color: rgb(127, 210, 255);
+}
+*{
+    margin: 5;
+}
+.class{
+    width: 5;
+}
+ul{
+    font-weight: 900;
+    font-style: italic;
+    text-shadow: 0cap;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: serif;
+}
+h2{
+    text-align: center;
+    letter-spacing: 0cap;
+    text-transform: uppercase;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    outline-style: solid;
+}
+section{
+    field-sizing: 10px;
+    outline-style: solid;
+}
